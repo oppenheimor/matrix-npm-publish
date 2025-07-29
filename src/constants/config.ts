@@ -9,7 +9,7 @@ export const APP_VERSION = '1.1.0';
 export const INTERNAL_REGISTRY = 'http://repositories.myhexin.com:8081/repository/npm-release/';
 
 // 应用信息
-export const APP_NAME = 'matrix-publish';
+export const APP_NAME = '@atom/matrix-publish';
 export const APP_DESCRIPTION = 'Find and select packages from packages directory';
 
 // ASCII 横幅

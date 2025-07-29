@@ -4,7 +4,7 @@
 
 **🚀 专业的包发布工具 - 支持内网和公网发布**
 
-[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/your-org/matrix-publish)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/atom-org/matrix-publish)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
@@ -25,7 +25,7 @@
 ### 安装
 
 ```bash
-npm install -g matrix-publish
+npm install -g @atom/matrix-publish
 ```
 
 ### 基本使用
@@ -185,7 +185,7 @@ your-project/
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-org/matrix-publish.git
+git clone https://github.com/atom-org/matrix-publish.git
 cd matrix-publish
 
 # 安装依赖
@@ -262,9 +262,9 @@ src/
 
 ## 🔗 相关链接
 
-- [Issues](https://github.com/your-org/matrix-publish/issues) - 报告问题
-- [Discussions](https://github.com/your-org/matrix-publish/discussions) - 讨论交流
-- [Releases](https://github.com/your-org/matrix-publish/releases) - 版本发布
+- [Issues](https://github.com/atom-org/matrix-publish/issues) - 报告问题
+- [Discussions](https://github.com/atom-org/matrix-publish/discussions) - 讨论交流
+- [Releases](https://github.com/atom-org/matrix-publish/releases) - 版本发布
 
 ## 💬 支持
 
@@ -273,8 +273,8 @@ src/
 有问题或建议？欢迎通过以下方式联系我们：
 
 - 📧 Email: your-email@example.com
-- 💬 Issues: [GitHub Issues](https://github.com/your-org/matrix-publish/issues)
-- 📖 Wiki: [项目文档](https://github.com/your-org/matrix-publish/wiki)
+- 💬 Issues: [GitHub Issues](https://github.com/atom-org/matrix-publish/issues)
+- 📖 Wiki: [项目文档](https://github.com/atom-org/matrix-publish/wiki)
 
 ---
 

@@ -51,6 +51,6 @@ src/
 ---
 
 ## 🔗 Links
-- [Repository](https://github.com/your-org/matrix-publish)
-- [Issues](https://github.com/your-org/matrix-publish/issues)
-- [Releases](https://github.com/your-org/matrix-publish/releases)
+- [Repository](https://github.com/atom-org/matrix-publish)
+- [Issues](https://github.com/atom-org/matrix-publish/issues)
+- [Releases](https://github.com/atom-org/matrix-publish/releases)
