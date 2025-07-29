@@ -1,5 +1,5 @@
 {
-  "name": "matrix-publish",
+  "name": "@atom/matrix-publish",
   "version": "1.1.0",
   "description": "A CLI tool for publishing packages with internal network support",
   "main": "dist/index.js",
@@ -33,7 +33,6 @@
     "matrix-publish",
     "typescript"
   ],
-  "author": "Your Team <your-email@example.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/your-org/matrix-publish.git"
