@@ -1,0 +1,7 @@
+{
+  "name": "@oversea/input",
+  "version": "0.0.2",
+  "description": "Input component",
+  "main": "dist/index.js",
+  "license": "MIT"
+}

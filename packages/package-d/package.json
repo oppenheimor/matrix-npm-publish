@@ -1,0 +1,7 @@
+{
+  "name": "@oversea/never-published",
+  "version": "0.0.0",
+  "description": "A package that was never published",
+  "main": "dist/index.js",
+  "license": "MIT"
+}

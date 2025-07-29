@@ -1,0 +1,56 @@
+{
+  "name": "matrix-publish",
+  "version": "1.1.0",
+  "description": "A CLI tool for publishing packages with internal network support",
+  "main": "dist/index.js",
+  "bin": {
+    "matrix-publish": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node16 --outfile=dist/index.js --format=cjs",
+    "dev": "esbuild src/index.ts --bundle --platform=node --target=node16 --outfile=dist/index.js --format=cjs --watch",
+    "start": "node dist/index.js",
+    "debug": "npm run build && chmod +x dist/index.js && matrix-publish",
+    "test": "npm run build && chmod +x dist/index.js && matrix-publish --help",
+    "unlink": "npm unlink -g"
+  },
+  "keywords": [
+    "cli",
+    "publish",
+    "npm",
+    "monorepo",
+    "package-manager",
+    "internal-registry",
+    "matrix-publish",
+    "typescript"
+  ],
+  "author": "Your Team <your-email@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/matrix-publish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/matrix-publish/issues"
+  },
+  "homepage": "https://github.com/your-org/matrix-publish#readme",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "^9.3.7"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.19.0",
+    "typescript": "^5.0.0"
+  }
+}
