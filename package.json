@@ -1,6 +1,6 @@
 {
   "name": "@atom/matrix-publish",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A CLI tool for publishing packages with internal network support",
   "main": "dist/index.js",
   "bin": {
